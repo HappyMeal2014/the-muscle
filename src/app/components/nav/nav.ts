@@ -12,7 +12,7 @@ export interface NavLink {
 const DEFAULT_NAV_LINKS: NavLink[] = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
-  { label: 'Skills', href: '#skills' },
+  { label: 'Skills', path: '/skills' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'Contact', href: '#contact' },
 ];
