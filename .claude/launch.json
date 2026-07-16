@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "the-muscle",
+      "runtimeExecutable": "C:\\Development\\the-muscle\\.claude\\start.cmd",
+      "runtimeArgs": [],
+      "port": 4200
+    }
+  ]
+}
