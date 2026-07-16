@@ -1,1 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-navy-950: #05070f;
+  --color-navy-900: #0a0f1e;
+  --color-navy-800: #141b30;
+  --color-navy-700: #232c49;
+  --color-navy-300: #9aa3c2;
+  --color-brand-blue: #38bdf8;
+}
+
 /* You can add global styles to this file, and also import other style files */
