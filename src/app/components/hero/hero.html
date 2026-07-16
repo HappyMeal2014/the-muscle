@@ -13,7 +13,7 @@
         {{ name() }}
       </h1>
 
-      <p class="mt-4 text-lg text-navy-300 md:text-xl">
+      <p class="mt-4 text-lg text-brand-blue md:text-xl">
         {{ tagline() }}
       </p>
 
@@ -36,26 +36,6 @@
         >
           {{ email() }}
         </a>
-      </div>
-
-      <div class="mt-8 flex items-center justify-center gap-4 md:justify-start">
-        @for (social of socialLinks(); track social.label) {
-          <a
-            [href]="social.href"
-            [attr.aria-label]="social.label"
-            target="_blank"
-            rel="noopener"
-            class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-blue text-sm font-semibold text-navy-950 transition-colors hover:bg-brand-blue/80"
-          >
-            @if (social.iconPath) {
-              <svg viewBox="0 0 24 24" class="h-4 w-4 fill-current">
-                <path [attr.d]="social.iconPath" />
-              </svg>
-            } @else {
-              {{ social.label.charAt(0) }}
-            }
-          </a>
-        }
       </div>
     </div>
 
